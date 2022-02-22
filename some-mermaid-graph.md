@@ -72,6 +72,6 @@ Good?
     graham.enp196s0f0np0["enp196s0f0np0"]
     graham.enp196s0f1np1["enp196s0f1np1"]
     graham.enp196s0f1np1["enp196s0f1np1"]
-    click outside["nz-srvr2s2.informatik.tu-muenchen.de"] "https://nz-srvr2s2.informatik.tu-muenchen.de/" "outside"
     end
+    click outside "https://nz-srvr2s2.informatik.tu-muenchen.de/" "outside"
 ```
