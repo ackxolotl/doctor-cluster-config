@@ -61,7 +61,7 @@ Good?
 
 ```mermaid
   graph TD
-    graham.enp2s0f0np0["enp2s0f0np0"]-- 10G ---outside["nz-srvr2s2.informatik.tu-muenchen.de"]
+    graham.enp2s0f0np0["enp2s0f0np0"]-- 10G ---outside
     graham.enp196s0f0np0["enp196s0f0np0"]-- 10G ---graham.enp2s0f0np0["enp2s0f0np0"]
     graham.enp196s0f0np0["enp196s0f0np0"]-- 10G ---graham.enp196s0f1np1["enp196s0f1np1"]
     graham.enp196s0f1np1["enp196s0f1np1"]-- 10G ---graham.enp2s0f0np0["enp2s0f0np0"]
@@ -73,5 +73,5 @@ Good?
     graham.enp196s0f1np1["enp196s0f1np1"]
     graham.enp196s0f1np1["enp196s0f1np1"]
     end
-    click outside["nz-srvr2s2.informatik.tu-muenchen.de"] "https://nz-srvr2s2.informatik.tu-muenchen.de/" "outside"
+    click outside "https://nz-srvr2s2.informatik.tu-muenchen.de/" "outside"
 ```
