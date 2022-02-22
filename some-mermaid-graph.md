@@ -44,7 +44,7 @@ Good?
 
 ```mermaid
   graph TD
-    enp2s0f0np0-- 1G ---Arista
+    enp2s0f0np0-- 1G ---"nz-srvr2s2.informatik.tu-muenchen.de"
     enp196s0f0np0-- 10G ---bill
     enp196s0f1np1-- 10G ---astrid
     subgraph graham
