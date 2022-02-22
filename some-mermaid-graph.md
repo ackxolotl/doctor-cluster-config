@@ -47,6 +47,7 @@ Good?
     enp2s0f0np0-- 1G ---Arista
     subgraph graham
     enp2s0f0np0
+    enp196s0f1np1
     enp196s0f0np0-- 10G ---enp2s0f0np0
     end
     subgraph bill
