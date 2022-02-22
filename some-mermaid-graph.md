@@ -39,3 +39,21 @@ Good?
     c1-->c2
     end
 ```
+
+## Graph 4
+
+```mermaid
+  graph TD
+    c1-->a2
+    subgraph graham
+    a1-->a2
+    eno1
+    eno2
+    end
+    subgraph bill
+    b1-->b2
+    end
+    subgraph astrid
+    c1-->c2
+    end
+```
