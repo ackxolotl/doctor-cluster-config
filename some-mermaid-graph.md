@@ -44,11 +44,12 @@ Good?
 
 ```mermaid
   graph TD
-    c1-->a2
+    enp2s0f0np0-- 1G ---Arista
     subgraph graham
-    a1-->a2
-    eno1
-    eno2
+    enp2s0f0np0
+    enp196s0f0np0-- 10G ---enp2s0f0np0
+    enp196s0f0np0-- 10G ---enp196s0f1np1
+    enp196s0f1np1-- 10G ---enp2s0f0np0
     end
     subgraph bill
     b1-->b2
