@@ -45,15 +45,13 @@ Good?
 ```mermaid
   graph TD
     enp2s0f0np0-- 1G ---Arista
+    enp196s0f0np0-- 10G ---bill
+    enp196s0f1np1-- 10G ---astrid
     subgraph graham
     enp2s0f0np0
     enp196s0f1np1
-    enp196s0f0np0-- 10G ---enp2s0f0np0
+    enp196s0f0np0
     end
-    subgraph bill
-    eno1-- 10G ---enp196s0f0np0
-    end
-    subgraph astrid
-    eno2-- 10G ---enp196s0f1np1
-    end
+    click astrid "https://github.com/ackxolotl/doctor-cluster-config/blob/mermaid/docs/tum/astrid.md" "astrid"
+    click bill "https://github.com/ackxolotl/doctor-cluster-config/blob/mermaid/docs/tum/bill.md" "bill"
 ```
