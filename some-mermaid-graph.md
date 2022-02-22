@@ -19,6 +19,6 @@ Good?
       graham-- 100G ---astrid;
       graham-- 1G ---bill;
       graham-- 10G ---graham;
-      graham-- 1G ---Arista Networks DCS-7308;
+      graham-- 1G ---Arista;
 ```
 
