@@ -48,13 +48,13 @@ Good?
     subgraph graham
     enp2s0f0np0
     enp196s0f0np0-- 10G ---enp2s0f0np0
-    enp196s0f0np0-- 10G ---enp196s0f1np1
-    enp196s0f1np1-- 10G ---enp2s0f0np0
+    enp196s0f0np0-- 10G ---eno1
+    enp196s0f1np1-- 10G ---eno2
     end
     subgraph bill
-    b1-->b2
+    eno1
     end
     subgraph astrid
-    c1-->c2
+    eno2
     end
 ```
