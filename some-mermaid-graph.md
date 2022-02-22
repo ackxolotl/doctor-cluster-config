@@ -24,3 +24,18 @@ Good?
       click bill "https://github.com/ackxolotl/doctor-cluster-config/blob/mermaid/docs/tum/bill.md" "bill"
 ```
 
+## Graph 3
+
+```mermaid
+  graph TD
+    c1-->a2
+    subgraph graham
+    a1-->a2
+    end
+    subgraph bill
+    b1-->b2
+    end
+    subgraph astrid
+    c1-->c2
+    end
+```
